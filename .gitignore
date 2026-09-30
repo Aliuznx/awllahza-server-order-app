@@ -1,0 +1,18 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.runtime/
+__pycache__/
+*.pyc
+test-results/
+*.log
+# Local exports, backups and credential documents
+backups/
+*.sql.gz
+*.dump
+*.pem
+*.key
+database/inceleme-rehberi.sql
+database/veritabani-kodlari.txt
+*Proje-Ogrenme-Rehberi*

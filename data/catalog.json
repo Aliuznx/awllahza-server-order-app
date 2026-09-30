@@ -1,0 +1,1376 @@
+{
+  "sourceUrl": "https://awllahza.com/",
+  "sourceSha256": "a7634a36650e868db19a3b1bf3671263f38db6d5cc543a664e6e21cbb9f3bd6f",
+  "currency": "SAR",
+  "minorUnit": 2,
+  "restaurant": {
+    "name": {
+      "en": "Awl Lahza",
+      "ar": "أول لحظة"
+    },
+    "tagline": {
+      "en": "Taste the First Moment",
+      "ar": "ذوق أول لحظة"
+    },
+    "address": {
+      "en": "Plan 71, Abu Bakr Al-Siddiq Street, opposite McDonald’s, Uhud, Dammam 32263, Saudi Arabia",
+      "ar": "مخطط 71، شارع أبو بكر الصديق، مقابل مطعم ماكدونالدز، حي أحد، الدمام 32263، المملكة العربية السعودية"
+    },
+    "mapsUrl": "https://maps.app.goo.gl/c5ArK1aprzQ8qu436",
+    "latitude": 26.4046239,
+    "longitude": 50.0382213
+  },
+  "categories": [
+    {
+      "id": "shawarma",
+      "name": {
+        "en": "Shawarma",
+        "ar": "شاورما"
+      },
+      "icon": "🌯"
+    },
+    {
+      "id": "plates",
+      "name": {
+        "en": "Plates",
+        "ar": "أطباق"
+      },
+      "icon": "🍽️"
+    },
+    {
+      "id": "falafel",
+      "name": {
+        "en": "Falafel",
+        "ar": "فلافل"
+      },
+      "icon": "🧆"
+    },
+    {
+      "id": "burgers",
+      "name": {
+        "en": "Burgers",
+        "ar": "برجر"
+      },
+      "icon": "🍔"
+    },
+    {
+      "id": "fries",
+      "name": {
+        "en": "Fries",
+        "ar": "بطاطس"
+      },
+      "icon": "🍟"
+    },
+    {
+      "id": "drinks",
+      "name": {
+        "en": "Drinks",
+        "ar": "مشروبات"
+      },
+      "icon": "🥤"
+    }
+  ],
+  "products": [
+    {
+      "id": "shawarma-small-shawarma",
+      "categoryId": "shawarma",
+      "name": {
+        "en": "Small Shawarma",
+        "ar": "شاورما صغير"
+      },
+      "description": {
+        "en": "Classic wrap, garlic sauce, pickles, fries",
+        "ar": "لفة كلاسيكية، صوص ثوم، مخلل، بطاطس"
+      },
+      "ingredients": {
+        "en": "Arabic & saj bread, garlic sauce, salad, fries, hot sauce, ketchup, tahini, pickled cucumber",
+        "ar": "خبز عربي وصاج، صوص ثوم، سلطة، بطاطس، صوص حار، كاتشب، طحينة، مخلل خيار"
+      },
+      "note": {
+        "en": "With cheese: 7 SAR",
+        "ar": "مع جبن: 7 ر.س"
+      },
+      "badge": {
+        "en": "",
+        "ar": ""
+      },
+      "icon": "🌯",
+      "calories": 320,
+      "priceMinor": 600,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "priceMinor": 600,
+          "calories": 320
+        },
+        {
+          "id": "cheese",
+          "name": {
+            "en": "With cheese",
+            "ar": "مع جبن"
+          },
+          "priceMinor": 700,
+          "calories": null
+        }
+      ]
+    },
+    {
+      "id": "shawarma-medium-shawarma",
+      "categoryId": "shawarma",
+      "name": {
+        "en": "Medium Shawarma",
+        "ar": "شاورما وسط"
+      },
+      "description": {
+        "en": "Generous filling, garlic sauce, fresh toppings",
+        "ar": "حشوة وفيرة، صوص ثوم، مقبلات طازجة"
+      },
+      "ingredients": {
+        "en": "Arabic & saj bread, garlic sauce, salad, fries, hot sauce, ketchup, tahini, pickled cucumber",
+        "ar": "خبز عربي وصاج، صوص ثوم، سلطة، بطاطس، صوص حار، كاتشب، طحينة، مخلل خيار"
+      },
+      "note": {
+        "en": "With cheese: 13 SAR",
+        "ar": "مع جبن: 13 ر.س"
+      },
+      "badge": {
+        "en": "",
+        "ar": ""
+      },
+      "icon": "🌯",
+      "calories": 520,
+      "priceMinor": 1200,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "priceMinor": 1200,
+          "calories": 520
+        },
+        {
+          "id": "cheese",
+          "name": {
+            "en": "With cheese",
+            "ar": "مع جبن"
+          },
+          "priceMinor": 1300,
+          "calories": null
+        }
+      ]
+    },
+    {
+      "id": "shawarma-jumbo-shawarma",
+      "categoryId": "shawarma",
+      "name": {
+        "en": "Jumbo Shawarma",
+        "ar": "شاورما جامبو"
+      },
+      "description": {
+        "en": "Extra large, loaded with meat & fresh toppings",
+        "ar": "لفة كبيرة، محشوة باللحم والمقبلات"
+      },
+      "ingredients": {
+        "en": "Arabic & saj bread, garlic sauce, salad, fries, hot sauce, ketchup, tahini, pickled cucumber",
+        "ar": "خبز عربي وصاج، صوص ثوم، سلطة، بطاطس، صوص حار، كاتشب، طحينة، مخلل خيار"
+      },
+      "note": {
+        "en": "With cheese: 18 SAR",
+        "ar": "مع جبن: 18 ر.س"
+      },
+      "badge": {
+        "en": "BIG 🔥",
+        "ar": "كبير 🔥"
+      },
+      "icon": "🌯",
+      "calories": 780,
+      "priceMinor": 1600,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "priceMinor": 1600,
+          "calories": 780
+        },
+        {
+          "id": "cheese",
+          "name": {
+            "en": "With cheese",
+            "ar": "مع جبن"
+          },
+          "priceMinor": 1800,
+          "calories": null
+        }
+      ]
+    },
+    {
+      "id": "shawarma-arabi-shawarma-9-pcs",
+      "categoryId": "shawarma",
+      "name": {
+        "en": "Arabi Shawarma (9 pcs)",
+        "ar": "شاورما عربي (9 قطع)"
+      },
+      "description": {
+        "en": "Traditional Arabic style, 9 pieces",
+        "ar": "طريقة عربية أصيلة، 9 قطع"
+      },
+      "ingredients": {
+        "en": "Arabic & saj bread, garlic sauce, salad, fries, hot sauce, ketchup, tahini, pickled cucumber",
+        "ar": "خبز عربي وصاج، صوص ثوم، سلطة، بطاطس، صوص حار، كاتشب، طحينة، مخلل خيار"
+      },
+      "note": {
+        "en": "With cheese: 20 SAR",
+        "ar": "مع جبن: 20 ر.س"
+      },
+      "badge": {
+        "en": "",
+        "ar": ""
+      },
+      "icon": "🥙",
+      "calories": 490,
+      "priceMinor": 1800,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "priceMinor": 1800,
+          "calories": 490
+        },
+        {
+          "id": "cheese",
+          "name": {
+            "en": "With cheese",
+            "ar": "مع جبن"
+          },
+          "priceMinor": 2000,
+          "calories": null
+        }
+      ]
+    },
+    {
+      "id": "shawarma-arabi-shawarma-12-pcs",
+      "categoryId": "shawarma",
+      "name": {
+        "en": "Arabi Shawarma (12 pcs)",
+        "ar": "شاورما عربي (12 قطع)"
+      },
+      "description": {
+        "en": "Traditional Arabic style, 12 pieces",
+        "ar": "طريقة عربية أصيلة، 12 قطعة"
+      },
+      "ingredients": {
+        "en": "Arabic & saj bread, garlic sauce, salad, fries, hot sauce, ketchup, tahini, pickled cucumber",
+        "ar": "خبز عربي وصاج، صوص ثوم، سلطة، بطاطس، صوص حار، كاتشب، طحينة، مخلل خيار"
+      },
+      "note": {
+        "en": "With cheese: 27 SAR",
+        "ar": "مع جبن: 27 ر.س"
+      },
+      "badge": {
+        "en": "BEST",
+        "ar": "الأفضل"
+      },
+      "icon": "🥙",
+      "calories": 650,
+      "priceMinor": 2400,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "priceMinor": 2400,
+          "calories": 650
+        },
+        {
+          "id": "cheese",
+          "name": {
+            "en": "With cheese",
+            "ar": "مع جبن"
+          },
+          "priceMinor": 2700,
+          "calories": null
+        }
+      ]
+    },
+    {
+      "id": "plates-shawarma-plate-small",
+      "categoryId": "plates",
+      "name": {
+        "en": "Shawarma Plate (Small)",
+        "ar": "طبق شاورما صغير"
+      },
+      "description": {
+        "en": "Shawarma slices, salad, fries, garlic sauce",
+        "ar": "شرائح شاورما، سلطة، بطاطس، صوص ثوم"
+      },
+      "ingredients": {
+        "en": "",
+        "ar": ""
+      },
+      "note": {
+        "en": "",
+        "ar": ""
+      },
+      "badge": {
+        "en": "",
+        "ar": ""
+      },
+      "icon": "🍽️",
+      "calories": 620,
+      "priceMinor": 2000,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "priceMinor": 2000,
+          "calories": 620
+        }
+      ]
+    },
+    {
+      "id": "plates-shawarma-plate-big",
+      "categoryId": "plates",
+      "name": {
+        "en": "Shawarma Plate (Big)",
+        "ar": "طبق شاورما كبير"
+      },
+      "description": {
+        "en": "Large shawarma portion, salad, fries, garlic sauce",
+        "ar": "حصة كبيرة، سلطة، بطاطس، صوص ثوم"
+      },
+      "ingredients": {
+        "en": "",
+        "ar": ""
+      },
+      "note": {
+        "en": "",
+        "ar": ""
+      },
+      "badge": {
+        "en": "",
+        "ar": ""
+      },
+      "icon": "🍽️",
+      "calories": 880,
+      "priceMinor": 2500,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "priceMinor": 2500,
+          "calories": 880
+        }
+      ]
+    },
+    {
+      "id": "plates-brosted-4-pieces",
+      "categoryId": "plates",
+      "name": {
+        "en": "Brosted (4 pieces)",
+        "ar": "بروستد (4 قطع)"
+      },
+      "description": {
+        "en": "Crispy broasted chicken, special spice blend",
+        "ar": "دجاج بروستد مقرمش، مزيج بهارات خاص"
+      },
+      "ingredients": {
+        "en": "",
+        "ar": ""
+      },
+      "note": {
+        "en": "",
+        "ar": ""
+      },
+      "badge": {
+        "en": "",
+        "ar": ""
+      },
+      "icon": "🍗",
+      "calories": 740,
+      "priceMinor": 1700,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "priceMinor": 1700,
+          "calories": 740
+        }
+      ]
+    },
+    {
+      "id": "falafel-falafel-with-egg",
+      "categoryId": "falafel",
+      "name": {
+        "en": "Falafel with Egg",
+        "ar": "فلافل مع بيض"
+      },
+      "description": {
+        "en": "Crispy falafel wrap, boiled egg, tahini",
+        "ar": "لفة فلافل مقرمشة، بيض مسلوق، طحينة"
+      },
+      "ingredients": {
+        "en": "Arabic bread, garlic sauce, salad, fries, eggplant, hot sauce, ketchup, tahini",
+        "ar": "خبز عربي، صوص ثوم، سلطة، بطاطس، باذنجان، صوص حار، كاتشب، طحينة"
+      },
+      "note": {
+        "en": "With cheese: +1 SAR",
+        "ar": "مع جبن: +1 ر.س"
+      },
+      "badge": {
+        "en": "",
+        "ar": ""
+      },
+      "icon": "🧆",
+      "calories": 380,
+      "priceMinor": 500,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "priceMinor": 500,
+          "calories": 380
+        },
+        {
+          "id": "cheese",
+          "name": {
+            "en": "With cheese",
+            "ar": "مع جبن"
+          },
+          "priceMinor": 600,
+          "calories": null
+        }
+      ]
+    },
+    {
+      "id": "falafel-falafel-without-egg",
+      "categoryId": "falafel",
+      "name": {
+        "en": "Falafel without Egg",
+        "ar": "فلافل بدون بيض"
+      },
+      "description": {
+        "en": "Crispy falafel, tahini, salad, fries",
+        "ar": "فلافل مقرمش، طحينة، سلطة، بطاطس"
+      },
+      "ingredients": {
+        "en": "Arabic bread, garlic sauce, salad, fries, eggplant, hot sauce, ketchup, tahini",
+        "ar": "خبز عربي، صوص ثوم، سلطة، بطاطس، باذنجان، صوص حار، كاتشب، طحينة"
+      },
+      "note": {
+        "en": "With cheese: +1 SAR",
+        "ar": "مع جبن: +1 ر.س"
+      },
+      "badge": {
+        "en": "",
+        "ar": ""
+      },
+      "icon": "🧆",
+      "calories": 290,
+      "priceMinor": 400,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "priceMinor": 400,
+          "calories": 290
+        },
+        {
+          "id": "cheese",
+          "name": {
+            "en": "With cheese",
+            "ar": "مع جبن"
+          },
+          "priceMinor": 500,
+          "calories": null
+        }
+      ]
+    },
+    {
+      "id": "falafel-falafel-plate",
+      "categoryId": "falafel",
+      "name": {
+        "en": "Falafel Plate",
+        "ar": "طبق فلافل"
+      },
+      "description": {
+        "en": "Falafel, fresh salad, fries, bread",
+        "ar": "فلافل، سلطة طازجة، بطاطس، خبز"
+      },
+      "ingredients": {
+        "en": "Arabic bread, garlic sauce, salad, fries, eggplant, hot sauce, ketchup, tahini",
+        "ar": "خبز عربي، صوص ثوم، سلطة، بطاطس، باذنجان، صوص حار، كاتشب، طحينة"
+      },
+      "note": {
+        "en": "",
+        "ar": ""
+      },
+      "badge": {
+        "en": "",
+        "ar": ""
+      },
+      "icon": "🍽️",
+      "calories": 520,
+      "priceMinor": 1500,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "priceMinor": 1500,
+          "calories": 520
+        }
+      ]
+    },
+    {
+      "id": "burgers-chicken-burger",
+      "categoryId": "burgers",
+      "name": {
+        "en": "Chicken Burger",
+        "ar": "برجر دجاج"
+      },
+      "description": {
+        "en": "Crispy chicken, lettuce, fries, sauce",
+        "ar": "دجاج مقرمش، خس، بطاطس، صوص"
+      },
+      "ingredients": {
+        "en": "Garlic sauce, salad, fries, ketchup",
+        "ar": "صوص ثوم، سلطة، بطاطس، كاتشب"
+      },
+      "note": {
+        "en": "With cheese: 8 SAR",
+        "ar": "مع جبن: 8 ر.س"
+      },
+      "badge": {
+        "en": "",
+        "ar": ""
+      },
+      "icon": "🍔",
+      "calories": 450,
+      "priceMinor": 700,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "priceMinor": 700,
+          "calories": 450
+        },
+        {
+          "id": "cheese",
+          "name": {
+            "en": "With cheese",
+            "ar": "مع جبن"
+          },
+          "priceMinor": 800,
+          "calories": null
+        }
+      ]
+    },
+    {
+      "id": "burgers-meat-burger",
+      "categoryId": "burgers",
+      "name": {
+        "en": "Meat Burger",
+        "ar": "برجر لحم"
+      },
+      "description": {
+        "en": "Beef patty, lettuce, pickles, sauce",
+        "ar": "لحم بقري، خس، مخلل، صوص"
+      },
+      "ingredients": {
+        "en": "Garlic sauce, salad, fries, ketchup",
+        "ar": "صوص ثوم، سلطة، بطاطس، كاتشب"
+      },
+      "note": {
+        "en": "With cheese: 8 SAR",
+        "ar": "مع جبن: 8 ر.س"
+      },
+      "badge": {
+        "en": "",
+        "ar": ""
+      },
+      "icon": "🍔",
+      "calories": 490,
+      "priceMinor": 700,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "priceMinor": 700,
+          "calories": 490
+        },
+        {
+          "id": "cheese",
+          "name": {
+            "en": "With cheese",
+            "ar": "مع جبن"
+          },
+          "priceMinor": 800,
+          "calories": null
+        }
+      ]
+    },
+    {
+      "id": "burgers-chicken-burger-menu",
+      "categoryId": "burgers",
+      "name": {
+        "en": "Chicken Burger Menu",
+        "ar": "منيو برجر دجاج"
+      },
+      "description": {
+        "en": "Chicken burger + small fries + a drink",
+        "ar": "برجر دجاج + بطاطس صغير + مشروب"
+      },
+      "ingredients": {
+        "en": "Garlic sauce, salad, fries, ketchup",
+        "ar": "صوص ثوم، سلطة، بطاطس، كاتشب"
+      },
+      "note": {
+        "en": "Combo includes small fries & drink",
+        "ar": "يشمل بطاطس صغير ومشروب"
+      },
+      "badge": {
+        "en": "MENU",
+        "ar": "وجبة"
+      },
+      "icon": "🍔🍟🥤",
+      "calories": 780,
+      "priceMinor": 1500,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "priceMinor": 1500,
+          "calories": 780
+        }
+      ]
+    },
+    {
+      "id": "burgers-meat-burger-menu",
+      "categoryId": "burgers",
+      "name": {
+        "en": "Meat Burger Menu",
+        "ar": "منيو برجر لحم"
+      },
+      "description": {
+        "en": "Meat burger + small fries + a drink",
+        "ar": "برجر لحم + بطاطس صغير + مشروب"
+      },
+      "ingredients": {
+        "en": "Garlic sauce, salad, fries, ketchup",
+        "ar": "صوص ثوم، سلطة، بطاطس، كاتشب"
+      },
+      "note": {
+        "en": "Combo includes small fries & drink",
+        "ar": "يشمل بطاطس صغير ومشروب"
+      },
+      "badge": {
+        "en": "MENU",
+        "ar": "وجبة"
+      },
+      "icon": "🍔🍟🥤",
+      "calories": 820,
+      "priceMinor": 1500,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "priceMinor": 1500,
+          "calories": 820
+        }
+      ]
+    },
+    {
+      "id": "fries-fries-small",
+      "categoryId": "fries",
+      "name": {
+        "en": "Fries (Small)",
+        "ar": "بطاطس صغير"
+      },
+      "description": {
+        "en": "Golden crispy fries, sea salt",
+        "ar": "بطاطس مقرمشة ذهبية، ملح بحري"
+      },
+      "ingredients": {
+        "en": "",
+        "ar": ""
+      },
+      "note": {
+        "en": "",
+        "ar": ""
+      },
+      "badge": {
+        "en": "",
+        "ar": ""
+      },
+      "icon": "🍟",
+      "calories": 230,
+      "priceMinor": 500,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "priceMinor": 500,
+          "calories": 230
+        }
+      ]
+    },
+    {
+      "id": "fries-fries-medium",
+      "categoryId": "fries",
+      "name": {
+        "en": "Fries (Medium)",
+        "ar": "بطاطس وسط"
+      },
+      "description": {
+        "en": "Golden crispy fries, sea salt",
+        "ar": "بطاطس مقرمشة ذهبية، ملح بحري"
+      },
+      "ingredients": {
+        "en": "",
+        "ar": ""
+      },
+      "note": {
+        "en": "",
+        "ar": ""
+      },
+      "badge": {
+        "en": "",
+        "ar": ""
+      },
+      "icon": "🍟",
+      "calories": 370,
+      "priceMinor": 700,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "priceMinor": 700,
+          "calories": 370
+        }
+      ]
+    },
+    {
+      "id": "fries-fries-large",
+      "categoryId": "fries",
+      "name": {
+        "en": "Fries (Large)",
+        "ar": "بطاطس كبير"
+      },
+      "description": {
+        "en": "Large portion of golden crispy fries",
+        "ar": "حصة كبيرة بطاطس مقرمشة"
+      },
+      "ingredients": {
+        "en": "",
+        "ar": ""
+      },
+      "note": {
+        "en": "",
+        "ar": ""
+      },
+      "badge": {
+        "en": "POPULAR",
+        "ar": "الأكثر طلباً"
+      },
+      "icon": "🍟",
+      "calories": 580,
+      "priceMinor": 1200,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "priceMinor": 1200,
+          "calories": 580
+        }
+      ]
+    },
+    {
+      "id": "drinks-soft-drink",
+      "categoryId": "drinks",
+      "name": {
+        "en": "Soft Drink",
+        "ar": "مشروب غازي"
+      },
+      "description": {
+        "en": "Chilled soft drink of your choice — large 8 SAR",
+        "ar": "مشروب غازي بارد من اختيارك — كبير 8 ر.س"
+      },
+      "ingredients": {
+        "en": "",
+        "ar": ""
+      },
+      "note": {
+        "en": "Small: 5 SAR",
+        "ar": "صغير: 5 ر.س"
+      },
+      "badge": {
+        "en": "",
+        "ar": ""
+      },
+      "icon": "🥤",
+      "calories": 180,
+      "priceMinor": 800,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "priceMinor": 800,
+          "calories": 180
+        },
+        {
+          "id": "small",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "priceMinor": 500,
+          "calories": null
+        }
+      ]
+    },
+    {
+      "id": "drinks-pepsi",
+      "categoryId": "drinks",
+      "name": {
+        "en": "Pepsi",
+        "ar": "بيبسي"
+      },
+      "description": {
+        "en": "Pepsi can, served as is, refreshing & fizzy",
+        "ar": "علبة بيبسي كما هي، منعشة وغازية"
+      },
+      "ingredients": {
+        "en": "",
+        "ar": ""
+      },
+      "note": {
+        "en": "",
+        "ar": ""
+      },
+      "badge": {
+        "en": "",
+        "ar": ""
+      },
+      "icon": "🥛",
+      "calories": 150,
+      "priceMinor": 300,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "priceMinor": 300,
+          "calories": 150
+        }
+      ]
+    },
+    {
+      "id": "drinks-juice-rabia",
+      "categoryId": "drinks",
+      "name": {
+        "en": "Juice Rabia",
+        "ar": "عصير ربيع"
+      },
+      "description": {
+        "en": "Refreshing natural fruit juice drink",
+        "ar": "مشروب عصير فواكه طبيعي منعش"
+      },
+      "ingredients": {
+        "en": "",
+        "ar": ""
+      },
+      "note": {
+        "en": "",
+        "ar": ""
+      },
+      "badge": {
+        "en": "",
+        "ar": ""
+      },
+      "icon": "🧃",
+      "calories": 90,
+      "priceMinor": 200,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "priceMinor": 200,
+          "calories": 90
+        }
+      ]
+    },
+    {
+      "id": "drinks-orange-juice",
+      "categoryId": "drinks",
+      "name": {
+        "en": "Orange Juice",
+        "ar": "عصير برتقال"
+      },
+      "description": {
+        "en": "Fresh squeezed orange juice — large 8 SAR",
+        "ar": "عصير برتقال طازج — كبير 8 ر.س"
+      },
+      "ingredients": {
+        "en": "",
+        "ar": ""
+      },
+      "note": {
+        "en": "Small: 5 SAR",
+        "ar": "صغير: 5 ر.س"
+      },
+      "badge": {
+        "en": "",
+        "ar": ""
+      },
+      "icon": "🍊",
+      "calories": 160,
+      "priceMinor": 800,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "priceMinor": 800,
+          "calories": 160
+        },
+        {
+          "id": "small",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "priceMinor": 500,
+          "calories": null
+        }
+      ]
+    },
+    {
+      "id": "drinks-banana-milk",
+      "categoryId": "drinks",
+      "name": {
+        "en": "Banana Milk",
+        "ar": "حليب بالموز"
+      },
+      "description": {
+        "en": "Creamy banana milk drink — large 8 SAR",
+        "ar": "مشروب حليب بالموز كريمي — كبير 8 ر.س"
+      },
+      "ingredients": {
+        "en": "",
+        "ar": ""
+      },
+      "note": {
+        "en": "Small: 5 SAR",
+        "ar": "صغير: 5 ر.س"
+      },
+      "badge": {
+        "en": "",
+        "ar": ""
+      },
+      "icon": "🍌",
+      "calories": 220,
+      "priceMinor": 800,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "priceMinor": 800,
+          "calories": 220
+        },
+        {
+          "id": "small",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "priceMinor": 500,
+          "calories": null
+        }
+      ]
+    },
+    {
+      "id": "drinks-fruit-cocktail",
+      "categoryId": "drinks",
+      "name": {
+        "en": "Fruit Cocktail",
+        "ar": "كوكتيل فواكه"
+      },
+      "description": {
+        "en": "Mixed fresh fruit cocktail — large 8 SAR",
+        "ar": "كوكتيل فواكه طازجة مشكلة — كبير 8 ر.س"
+      },
+      "ingredients": {
+        "en": "",
+        "ar": ""
+      },
+      "note": {
+        "en": "Small: 5 SAR",
+        "ar": "صغير: 5 ر.س"
+      },
+      "badge": {
+        "en": "",
+        "ar": ""
+      },
+      "icon": "🍹",
+      "calories": 190,
+      "priceMinor": 800,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "priceMinor": 800,
+          "calories": 190
+        },
+        {
+          "id": "small",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "priceMinor": 500,
+          "calories": null
+        }
+      ]
+    },
+    {
+      "id": "drinks-melon-milk",
+      "categoryId": "drinks",
+      "name": {
+        "en": "Melon Milk",
+        "ar": "حليب بالشمام"
+      },
+      "description": {
+        "en": "Creamy melon milk drink — large 8 SAR",
+        "ar": "مشروب حليب بالشمام كريمي — كبير 8 ر.س"
+      },
+      "ingredients": {
+        "en": "",
+        "ar": ""
+      },
+      "note": {
+        "en": "Small: 5 SAR",
+        "ar": "صغير: 5 ر.س"
+      },
+      "badge": {
+        "en": "",
+        "ar": ""
+      },
+      "icon": "🍈",
+      "calories": 200,
+      "priceMinor": 800,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "priceMinor": 800,
+          "calories": 200
+        },
+        {
+          "id": "small",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "priceMinor": 500,
+          "calories": null
+        }
+      ]
+    },
+    {
+      "id": "drinks-mango-juice",
+      "categoryId": "drinks",
+      "name": {
+        "en": "Mango Juice",
+        "ar": "عصير مانجو"
+      },
+      "description": {
+        "en": "Fresh mango juice — large 8 SAR",
+        "ar": "عصير مانجو طازج — كبير 8 ر.س"
+      },
+      "ingredients": {
+        "en": "",
+        "ar": ""
+      },
+      "note": {
+        "en": "Small: 5 SAR",
+        "ar": "صغير: 5 ر.س"
+      },
+      "badge": {
+        "en": "",
+        "ar": ""
+      },
+      "icon": "🥭",
+      "calories": 170,
+      "priceMinor": 800,
+      "active": true,
+      "variants": [
+        {
+          "id": "regular",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "priceMinor": 800,
+          "calories": 170
+        },
+        {
+          "id": "small",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "priceMinor": 500,
+          "calories": null
+        }
+      ]
+    }
+  ],
+  "importNotes": [
+    "All 26 published source items have no separate active/inactive flag.",
+    "Source uses emoji product illustrations, not product photographs.",
+    "Prices are preserved. Tax/fee inclusion requires restaurant confirmation."
+  ],
+  "missingSourceFields": [
+    {
+      "productId": "shawarma-small-shawarma",
+      "field": "variants.cheese.calories",
+      "reason": "Not specified by source"
+    },
+    {
+      "productId": "shawarma-medium-shawarma",
+      "field": "variants.cheese.calories",
+      "reason": "Not specified by source"
+    },
+    {
+      "productId": "shawarma-jumbo-shawarma",
+      "field": "variants.cheese.calories",
+      "reason": "Not specified by source"
+    },
+    {
+      "productId": "shawarma-arabi-shawarma-9-pcs",
+      "field": "variants.cheese.calories",
+      "reason": "Not specified by source"
+    },
+    {
+      "productId": "shawarma-arabi-shawarma-12-pcs",
+      "field": "variants.cheese.calories",
+      "reason": "Not specified by source"
+    },
+    {
+      "productId": "plates-shawarma-plate-small",
+      "field": "ingredients",
+      "reason": "No separate ingredients list; description preserved"
+    },
+    {
+      "productId": "plates-shawarma-plate-big",
+      "field": "ingredients",
+      "reason": "No separate ingredients list; description preserved"
+    },
+    {
+      "productId": "plates-brosted-4-pieces",
+      "field": "ingredients",
+      "reason": "No separate ingredients list; description preserved"
+    },
+    {
+      "productId": "falafel-falafel-with-egg",
+      "field": "variants.cheese.calories",
+      "reason": "Not specified by source"
+    },
+    {
+      "productId": "falafel-falafel-without-egg",
+      "field": "variants.cheese.calories",
+      "reason": "Not specified by source"
+    },
+    {
+      "productId": "burgers-chicken-burger",
+      "field": "variants.cheese.calories",
+      "reason": "Not specified by source"
+    },
+    {
+      "productId": "burgers-meat-burger",
+      "field": "variants.cheese.calories",
+      "reason": "Not specified by source"
+    },
+    {
+      "productId": "fries-fries-small",
+      "field": "ingredients",
+      "reason": "No separate ingredients list; description preserved"
+    },
+    {
+      "productId": "fries-fries-medium",
+      "field": "ingredients",
+      "reason": "No separate ingredients list; description preserved"
+    },
+    {
+      "productId": "fries-fries-large",
+      "field": "ingredients",
+      "reason": "No separate ingredients list; description preserved"
+    },
+    {
+      "productId": "drinks-soft-drink",
+      "field": "variants.small.calories",
+      "reason": "Not specified by source"
+    },
+    {
+      "productId": "drinks-soft-drink",
+      "field": "ingredients",
+      "reason": "No separate ingredients list; description preserved"
+    },
+    {
+      "productId": "drinks-pepsi",
+      "field": "ingredients",
+      "reason": "No separate ingredients list; description preserved"
+    },
+    {
+      "productId": "drinks-juice-rabia",
+      "field": "ingredients",
+      "reason": "No separate ingredients list; description preserved"
+    },
+    {
+      "productId": "drinks-orange-juice",
+      "field": "variants.small.calories",
+      "reason": "Not specified by source"
+    },
+    {
+      "productId": "drinks-orange-juice",
+      "field": "ingredients",
+      "reason": "No separate ingredients list; description preserved"
+    },
+    {
+      "productId": "drinks-banana-milk",
+      "field": "variants.small.calories",
+      "reason": "Not specified by source"
+    },
+    {
+      "productId": "drinks-banana-milk",
+      "field": "ingredients",
+      "reason": "No separate ingredients list; description preserved"
+    },
+    {
+      "productId": "drinks-fruit-cocktail",
+      "field": "variants.small.calories",
+      "reason": "Not specified by source"
+    },
+    {
+      "productId": "drinks-fruit-cocktail",
+      "field": "ingredients",
+      "reason": "No separate ingredients list; description preserved"
+    },
+    {
+      "productId": "drinks-melon-milk",
+      "field": "variants.small.calories",
+      "reason": "Not specified by source"
+    },
+    {
+      "productId": "drinks-melon-milk",
+      "field": "ingredients",
+      "reason": "No separate ingredients list; description preserved"
+    },
+    {
+      "productId": "drinks-mango-juice",
+      "field": "variants.small.calories",
+      "reason": "Not specified by source"
+    },
+    {
+      "productId": "drinks-mango-juice",
+      "field": "ingredients",
+      "reason": "No separate ingredients list; description preserved"
+    }
+  ]
+}

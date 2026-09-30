@@ -1,0 +1,9 @@
+.git
+.vscode
+.runtime
+.env
+.env.*
+node_modules
+tests
+test-results
+*.log

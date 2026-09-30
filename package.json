@@ -1,0 +1,16 @@
+{
+  "name": "awllahza-orders",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server/index.js",
+    "dev": "node --env-file-if-exists=.env --watch server/index.js",
+    "db:setup": "node --env-file-if-exists=.env scripts/setup-db.js",
+    "admin:create": "node --env-file-if-exists=.env scripts/create-admin.js",
+    "test": "node --env-file-if-exists=.env --test tests/*.test.js",
+    "test:integration": "node --env-file-if-exists=.env --test tests/integration/*.test.js"
+  },
+  "dependencies": { "express": "^5.1.0", "mysql2": "^3.14.0" }
+}

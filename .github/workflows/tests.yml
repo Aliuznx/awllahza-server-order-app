@@ -1,0 +1,40 @@
+name: Tests
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    services:
+      mysql:
+        image: mysql:8.4.8
+        env:
+          MYSQL_DATABASE: awllahza_test
+          MYSQL_USER: awllahza
+          MYSQL_PASSWORD: ci-only-disposable-password
+          MYSQL_ROOT_PASSWORD: ci-only-disposable-root-password
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping -h 127.0.0.1 --silent"
+          --health-interval=5s
+          --health-timeout=5s
+          --health-retries=30
+    env:
+      MYSQL_HOST: 127.0.0.1
+      MYSQL_PORT: 3306
+      MYSQL_USER: awllahza
+      MYSQL_PASSWORD: ci-only-disposable-password
+      MYSQL_DATABASE: awllahza_test
+      MYSQL_TEST_DATABASE: awllahza_test
+      TEST_MODE: 'true'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run test:integration

@@ -1,0 +1,24 @@
+services:
+  app:
+    environment:
+      NODE_ENV: production
+      TEST_MODE: 'false'
+      TRUST_PROXY: '1'
+      APP_ORIGIN: https://${APP_DOMAIN:?Set APP_DOMAIN}
+  caddy:
+    image: caddy:2
+    environment:
+      APP_DOMAIN: ${APP_DOMAIN:?Set APP_DOMAIN}
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - app
+    restart: unless-stopped
+volumes:
+  caddy_data:
+  caddy_config:
